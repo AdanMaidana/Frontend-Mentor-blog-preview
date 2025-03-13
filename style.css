@@ -25,12 +25,12 @@ body {
   min-height: 100dvh;
   min-width: 375px;
   align-content: center;
-  place-items: center;
   padding: 1rem;
   font-family: 'Figtree', sans-serif;
 }
 
 main article {
+  margin: 0 auto;
   background-color: #fff;
   max-width: 375px;
   padding: 1.5rem;
