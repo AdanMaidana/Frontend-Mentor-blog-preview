@@ -29,6 +29,14 @@ body {
   font-family: 'Figtree', sans-serif;
 }
 
+main article:hover {
+  cursor: pointer;
+}
+
+main article:hover h1 {
+  color: #f6cf4f;
+}
+
 main article {
   margin: 0 auto;
   background-color: #fff;
@@ -67,11 +75,6 @@ main article {
       font-weight: 800;
       transition: color ease .3s;
     }
-
-    h1:hover {
-      cursor: pointer;
-      color: #f6cf4f;
-    }
   }
 
   .article-text {
@@ -99,6 +102,5 @@ main article {
 
 .attribution {
   margin-top: 1.5rem;
-
   text-align: center;
 }
